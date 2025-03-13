@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Color Sense Challengs</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-app">
+        <div class="box-info">
+          <button onclick="kususPaus(1)">Pause</button>
+        </div>
+        <div class="app-time">
+          <p id="time">7</p>
+          <p>/</p>
+          <p id="timeS">7</p>
+        </div>
+        <div class="app-Sub">
+          <h4 class="s1">color</h4>
+          <h4 class="s2"><i>guess</i></h4>
+        </div>
+        <div class="box-j">
+          <button onclick="mButton(1)"></button>
+          <button onclick="mButton(2)"></button>
+          <button onclick="mButton(3)"></button>
+          <button onclick="mButton(4)"></button>
+          <button onclick="mButton(5)"></button>
+          <button onclick="mButton(6)"></button>
+          <button onclick="mButton(7)"></button>
+          <button onclick="mButton(8)"></button>
+          <button onclick="mButton(9)"></button>
+        </div>
+        <div class="box-reset">
+          <button id="reset">Reset</button>
+        </div>
+        <div class="fitur">
+          <i class="fa-regular fa-heart activ"></i>
+          <i class="fa-regular fa-heart activ"></i>
+          <i class="fa-regular fa-heart activ"></i>
+        </div>
+        <div class="cn-up">
+          <p id="timeUp">00s</p>
+        </div>
+        <div class="level">
+          <h4>Level</h4>
+          <h4 id="level">1</h4>
+        </div>
+      </div>
+      <div id="conDuaa">
+        <span class="loding"></span>
+      </div>
+      <div id="hitam">
+        <div class="box-pause">
+          <h2>Pause</h2>
+          <button onclick="kususPaus(0)"> - Lanjut - </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- cdn luar -->
+    <script src="https://cdn.jsdelivr.net/npm/@customalert/customalert@2.2.2"></script>
+  </body>
+</html>
